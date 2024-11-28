@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructor from "@/components/Instructor";
 import TestimonialCard from "@/components/TestimonialCard";
@@ -14,6 +15,7 @@ const Home = () => {
       <TestimonialCard />
       <Webminers />
       <Instructor />
+      <Footer />
     </main>
   );
 };
