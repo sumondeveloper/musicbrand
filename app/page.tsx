@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import FeaturedSection from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import TestimonialCard from "@/components/TestimonialCard";
+import Webminers from "@/components/Webminers";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <FeaturedCourses />
       <WhyChooseUs />
       <TestimonialCard />
+      <Webminers />
     </main>
   );
 };
